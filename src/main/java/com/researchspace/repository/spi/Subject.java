@@ -10,17 +10,17 @@ import lombok.NonNull;
  */
 @Data
 public class Subject {
-	/**
-	 * Optional id
-	 */
-	private Long id;
-	/**
-	 * Non-null
-	 */
-	private @NonNull String name;
-	/**
-	 * Optional parent to allow hierarchical structures
-	 */
-	private Long parentSubject;
+    /**
+     * Optional id
+     */
+    private Long id;
+    /**
+     * Non-null
+     */
+    private @NonNull String name;
+    /**
+     * Optional parent to allow hierarchical structures
+     */
+    private Long parentSubject;
 
 }

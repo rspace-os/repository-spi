@@ -13,15 +13,15 @@ import lombok.Value;
 @Value
 @EqualsAndHashCode(of="url")
 public class LicenseDef {
-	
-	/**
-	 * Official URL of the license
-	 */
-	private @NonNull URL url;
-	
-	/**
-	 * Display name of the license
-	 */
-	private @NonNull String name;
+    
+    /**
+     * Official URL of the license
+     */
+    private @NonNull URL url;
+    
+    /**
+     * Display name of the license
+     */
+    private @NonNull String name;
 
 }

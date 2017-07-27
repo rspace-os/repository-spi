@@ -14,25 +14,25 @@ import com.jayway.jsonpath.JsonPath;
 
 public class StringRepoPropertyTest {
 
-	@Before
-	public void setUp() throws Exception {
-	}
+    @Before
+    public void setUp() throws Exception {
+    }
 
-	@After
-	public void tearDown() throws Exception {
-	}
+    @After
+    public void tearDown() throws Exception {
+    }
 
-	@Test
-	public void testToJson() throws JsonProcessingException {
-		StringRepoProperty repoProp = createStringRepoProperty();
-		ObjectMapper mapper = new ObjectMapper();
-		String json = mapper.writeValueAsString(repoProp);
-		assertEquals("value", JsonPath.read(json, "$.string"));
-	}
+    @Test
+    public void testToJson() throws JsonProcessingException {
+        StringRepoProperty repoProp = createStringRepoProperty();
+        ObjectMapper mapper = new ObjectMapper();
+        String json = mapper.writeValueAsString(repoProp);
+        assertEquals("value", JsonPath.read(json, "$.string"));
+    }
 
-	private StringRepoProperty createStringRepoProperty() {
-		return new StringRepoProperty("any", true, "value");
-	}
-	
+    private StringRepoProperty createStringRepoProperty() {
+        return new StringRepoProperty("any", true, "value");
+    }
+    
 
 }

@@ -11,9 +11,9 @@ import lombok.Value;
  */
 @Value
 public class ExternalId {
-	/**
-	 * E.g. 'ORCID'
-	 */
-	private @NonNull IdentifierScheme scheme;
-	private @NonNull String identifier;
+    /**
+     * E.g. 'ORCID'
+     */
+    private @NonNull IdentifierScheme scheme;
+    private @NonNull String identifier;
 }

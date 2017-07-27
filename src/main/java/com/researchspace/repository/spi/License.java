@@ -15,12 +15,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class License {
-	
-	private LicenseDef licenseDefinition;
-	
-	/**
-	 * Whether the license is the default or not for a particular repository.
-	 */
-	private Boolean defaultLicense;
+    
+    private LicenseDef licenseDefinition;
+    
+    /**
+     * Whether the license is the default or not for a particular repository.
+     */
+    private Boolean defaultLicense;
 
 }

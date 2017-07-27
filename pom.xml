@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>repository-spi</artifactId>
-	<version>0.1.7</version>
+	<version>0.1.8-SNAPSHOT</version>
 	<name>Repository SPI</name>
 	<description>SPI for RSpace repository plugins</description>
 	<groupId>com.researchspace</groupId>
