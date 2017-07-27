@@ -25,7 +25,7 @@ This workflow is described in the sequence diagram below.
 ## Overview of implementation process for providers
 
 * Create a new Java-based project that depends on this project.
-* Provide an implementation of the [IRepositoryConfigurer](/src/main/java/com/researchspace/repositoryspi/IRepositoryConfigurer.java)
+* Provide an implementation of the [IRepositoryConfigurer](/src/main/java/com/researchspace/repository/spi/IRepositoryConfigurer.java)
  and [IRepository](/src/main/java/com/researchspace/repository/spi/IRepository.java) interfaces that configure the submission form,
  and process the submission, respectively.
 * License your project.
