@@ -17,10 +17,19 @@ public class RepositoryOperationResult {
 	private  URL url;
 
 
+	/**
+	 * Human readable message from repository
+	 * @return
+	 */
 	public String getMessage() {
 		return message;
 	}
 
+	/**
+	 * A URL to a resource in the repository. If submission was successful, this should be a link
+	 *  to the submitted deposit.
+	 * @return A {@link URL}
+	 */
 	public URL getUrl() {
 		return url;
 	}
@@ -79,7 +88,4 @@ public class RepositoryOperationResult {
 			return false;
 		return true;
 	}
-
-
-	
 }

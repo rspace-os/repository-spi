@@ -29,7 +29,7 @@ public class StubRepositoryImpl implements IRepository {
 
 	@Override
 	public void configure(RepositoryConfig config) {
-		// TODO Auto-generated method stub
+		log.info("Configuring repository with config {}", config);
 		
 	}
 

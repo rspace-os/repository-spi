@@ -25,6 +25,9 @@ public class RepositoryConfig {
 	 * An optional password, can be <code>null</code>
 	 */
 	private @Getter String password;
+	/**
+	 * A name of a repository  - optional. Required if a serverURL supports different repositories
+	 */
 	private @Getter String repositoryName;	
 
 }
