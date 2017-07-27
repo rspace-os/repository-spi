@@ -45,7 +45,17 @@ This workflow is described in the sequence diagram below.
   
 ## Minimum library versions
 
-| Library | Version |
+| Library | Minimum Version |
 | -------- | -------- |
 | Junit | 4.12 |
 | apache-commons-lang | 2.6 |
+| org.springframework | 4.3 |
+| apache-commons-io | 2.5|
+| lombok | 1.16.16 |
+
+## Building the project
+
+    ./gradlew clean test build
+    
+ will run unit tests and build jars for the code, the sources and javadocs.
+    
