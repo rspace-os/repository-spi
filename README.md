@@ -46,9 +46,6 @@ This workflow is described in the sequence diagram below.
 ## Minimum library versions
 
 | Library | Version |
-
 | -------- | -------- |
-
 | Junit | 4.12 |
-
 | apache-commons-lang | 2.6 |
