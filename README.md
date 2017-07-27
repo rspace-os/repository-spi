@@ -47,8 +47,8 @@ This workflow is described in the sequence diagram below.
 
 | Library | Version |
 
-|----------|----------|
+| -------- | -------- |
 
-|Junit|4.12|
+| Junit | 4.12 |
 
-|apache-commons-lang|2.6|
+| apache-commons-lang | 2.6 |
