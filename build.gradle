@@ -3,7 +3,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'signing'
 group ='com.researchspace'
-version = '0.0.1'
+version = '0.1.8-SNAPSHOT'
 sourceCompatibility = 1.8
 
 def jacksonVersion='2.6.7'
@@ -16,16 +16,16 @@ repositories {
 dependencies {
     compile 'com.fasterxml.jackson.core:jackson-annotations:'+jacksonVersion
     compile 'com.fasterxml.jackson.core:jackson-core:'+jacksonVersion
-    compile 'com.fasterxml.jackson.core:jackson-databind:'+jacksonVersion
-      
+    compile 'com.fasterxml.jackson.core:jackson-databind:'+jacksonVersion  
     compile 'org.projectlombok:lombok:1.16.16'
     compile 'commons-lang:commons-lang:2.6'
     compile 'commons-io:commons-io:2.5'
     compile 'org.slf4j:slf4j-api:1.7.21'
-    testCompile   'junit:junit:4.12'
-    testCompile   'org.slf4j:slf4j-simple:1.7.21'
-    testCompile    'com.jayway.jsonpath:json-path:2.2.0'
-     testCompile    'org.mockito:mockito-core:2.8.47'
+    
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.slf4j:slf4j-simple:1.7.21'
+    testCompile 'com.jayway.jsonpath:json-path:2.2.0'
+    testCompile 'org.mockito:mockito-core:2.8.47'
 }
 
 test{
@@ -48,11 +48,6 @@ task sourcesJar(type: Jar) {
     classifier = 'sources'
     from sourceSets.main.allSource
 }
-
-//signing {
-  //  sign configurations.archives
-//}
-
 
 artifacts {
     archives javadocJar, sourcesJar

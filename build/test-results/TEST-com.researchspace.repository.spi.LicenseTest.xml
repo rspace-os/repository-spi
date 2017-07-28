@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.researchspace.repository.spi.LicenseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-07-27T14:47:07" hostname="richard-Skylake-Platform" time="0.036">
+<testsuite name="com.researchspace.repository.spi.LicenseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-07-28T09:43:57" hostname="richard-Skylake-Platform" time="0.035">
   <properties/>
-  <testcase name="equals" classname="com.researchspace.repository.spi.LicenseTest" time="0.036"/>
+  <testcase name="equals" classname="com.researchspace.repository.spi.LicenseTest" time="0.035"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
