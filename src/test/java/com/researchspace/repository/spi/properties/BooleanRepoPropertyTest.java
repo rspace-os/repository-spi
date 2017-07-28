@@ -12,25 +12,24 @@ import com.jayway.jsonpath.JsonPath;
 
 public class BooleanRepoPropertyTest {
 
-    @Before
-    public void setUp() throws Exception {
-    }
+	@Before
+	public void setUp() throws Exception {
+	}
 
-    @After
-    public void tearDown() throws Exception {
-    }
+	@After
+	public void tearDown() throws Exception {
+	}
 
-    @Test
-    public void testToJson() throws JsonProcessingException {
-        NumberRepoProperty repoProp = createNumberRepoProperty();
-        ObjectMapper mapper = new ObjectMapper();
-        String json = mapper.writeValueAsString(repoProp);
-        assertEquals(23, ((Integer)JsonPath.read(json, "$.number")).intValue());
-    }
+	@Test
+	public void testToJson() throws JsonProcessingException {
+		NumberRepoProperty repoProp = createNumberRepoProperty();
+		ObjectMapper mapper = new ObjectMapper();
+		String json = mapper.writeValueAsString(repoProp);
+		assertEquals(23, ((Integer) JsonPath.read(json, "$.number")).intValue());
+	}
 
-    private NumberRepoProperty createNumberRepoProperty() {
-        return new NumberRepoProperty("any", true, 23);
-    }
-    
+	private NumberRepoProperty createNumberRepoProperty() {
+		return new NumberRepoProperty("any", true, 23);
+	}
 
 }

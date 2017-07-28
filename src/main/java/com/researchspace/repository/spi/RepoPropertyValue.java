@@ -5,10 +5,11 @@ import com.researchspace.repository.spi.properties.RepoProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
 @Data
 @AllArgsConstructor
 @EqualsAndHashCode
 public class RepoPropertyValue {
-    private RepoProperty property;
-    private Object value;
+	private RepoProperty property;
+	private Object value;
 }

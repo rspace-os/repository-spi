@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * A License. Equality based on URL
+ * 
  * @author rspace
  * @since 0.1.6
  */
@@ -15,12 +16,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class License {
-    
-    private LicenseDef licenseDefinition;
-    
-    /**
-     * Whether the license is the default or not for a particular repository.
-     */
-    private Boolean defaultLicense;
+
+	private LicenseDef licenseDefinition;
+
+	/**
+	 * Whether the license is the default or not for a particular repository.
+	 */
+	private Boolean defaultLicense;
 
 }
