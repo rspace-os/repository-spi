@@ -1,3 +1,5 @@
+``` java
+
 package com.researchspace.figshare.rspaceadapter;
 import static java.util.Comparator.comparing;
 import static org.apache.commons.io.FilenameUtils.getExtension;
@@ -174,3 +176,4 @@ public class FigshareRSpaceRepository implements IRepository, RepositoryConfigur
 		}
 	}
 }
+```
