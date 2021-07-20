@@ -8,7 +8,7 @@
 	<groupId>com.researchspace</groupId>
 
 	<properties>
-		<jackson.version>2.6.7</jackson.version>
+		<jackson.version>2.9.10.7</jackson.version>
 	</properties>
 	<build>
 		<plugins>
